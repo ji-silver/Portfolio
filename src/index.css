@@ -10,3 +10,16 @@
   font-family: "Fira Code", monospace;
   list-style: none;
 }
+
+.active {
+  background-color: white;
+  color: #ffbd30;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+@layer base {
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+}
