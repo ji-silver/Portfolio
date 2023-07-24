@@ -1,7 +1,16 @@
 import React from "react";
 
 const Header = () => {
-  return <div className="bg-pink-300">Header</div>;
+  return (
+    <header className="py-6">
+      <div className="container max-auto">
+        <a href="#" className="font-bold text-2xl font-secondary">
+          <p className="text-[#fcac00]">JIEUN</p>
+          <p className="text-gray-700">PORTFOLIO</p>
+        </a>
+      </div>
+    </header>
+  );
 };
 
 export default Header;

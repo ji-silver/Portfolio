@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Rubik:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,13 +7,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Fira Code", monospace;
   list-style: none;
+}
+
+svg {
+  display: inline;
 }
 
 .active {
   background-color: white;
-  color: #ffbd30;
+  color: #fcac00;
   padding: 1rem;
   border-radius: 100%;
 }
