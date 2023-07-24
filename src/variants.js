@@ -1,10 +1,13 @@
+// 등장 애니메이션 (위, 아래, 좌, 우)
 export const fadeIn = (direction, delay) => {
   return {
+    // 숨겨져 있을 때 opacity: 0
     hidden: {
       y: direction === "up" ? 80 : direction === "down" ? -80 : 0,
       opacity: 0,
       x: direction === "left" ? 80 : direction === "right" ? -80 : 0,
     },
+    // 보여줄 때 x,y값 0 원래대로, opacity: 1
     show: {
       y: 0,
       x: 0,
