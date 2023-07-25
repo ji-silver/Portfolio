@@ -10,13 +10,17 @@
   list-style: none;
 }
 
+body {
+  color: #434343;
+}
+
 svg {
   display: inline;
 }
 
 .active {
   background-color: white;
-  color: #fcac00;
+  color: #fcac00 !important;
   padding: 1rem;
   border-radius: 100%;
 }

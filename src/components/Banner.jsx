@@ -5,6 +5,7 @@ import { GrInstagram } from "react-icons/gr";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import line from "../line.svg";
+import logo from "../images/logo.png";
 
 const Banner = () => {
   return (
@@ -14,7 +15,16 @@ const Banner = () => {
     >
       <div className="container text-center mx-auto">
         <div>
-          <div className="flex-1 text-center">
+          <div className="flex-1 text-center items-center">
+            <motion.img
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              src={logo}
+              className="w-[130px] mx-auto"
+              alt=""
+            />
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -56,6 +66,7 @@ const Banner = () => {
             >
               <a
                 href="https://github.com/ji-silver"
+                rel="noreferrer"
                 target="_blank"
                 className="hover:text-[#fcac00]"
               >
