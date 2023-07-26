@@ -93,7 +93,7 @@ const About = () => {
               </p>
               <hr className="my-2" />
             </div>
-            <div className="flex flex-col items-center h-[210px] xl:items-start">
+            <div className="flex flex-col items-center h-[200px] xl:items-start">
               <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 pt-5 items-center xl:items-start">
                 {aboutData.map((item, itemIndex) => {
                   return (

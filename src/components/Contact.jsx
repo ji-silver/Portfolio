@@ -5,8 +5,8 @@ import { fadeIn } from "../variants";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section h-screen">
-      <div className="container mx-auto">
+    <section id="contact" className="section h-screen relative bg">
+      <div className="container mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1">
             <div>
@@ -20,7 +20,7 @@ const Contact = () => {
                 alt=""
               />
               <motion.h2
-                className="mb-3 text-[32px] font-secondary font-semibold"
+                className="mb-3 text-[32px] font-secondary font-semibold text-white"
                 variants={fadeIn("up", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
@@ -29,7 +29,7 @@ const Contact = () => {
                 #Contact Me
               </motion.h2>
               <motion.p
-                className="pb-10"
+                className="pb-10 text-white"
                 variants={fadeIn("up", 0.4)}
                 initial="hidden"
                 whileInView={"show"}
@@ -38,7 +38,7 @@ const Contact = () => {
                 포트폴리오를 끝까지 봐주셔서 감사합니다!
               </motion.p>
               <motion.a
-                className="inline-block text-sm  font-medium py-4 px-4 mb-5 rounded-full bg-[#fcac00] hover:bg-[#e3a520] text-white shadow"
+                className="inline-block text-sm z-10 font-medium py-4 px-4 mb-5 rounded-full bg-[#fcac00] hover:bg-[#e3a520] text-white shadow"
                 href="mailto:jisilver.kim@gmail.com"
                 variants={fadeIn("up", 0.5)}
                 initial="hidden"
@@ -53,18 +53,12 @@ const Contact = () => {
             </div>
           </div>
           <div className="flex-1">
-            <motion.div
+            <div
               variants={fadeIn("right", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-            >
-              <img
-                src={`${process.env.PUBLIC_URL}/images/contact.jpg`}
-                className="min-w-full h-[400px] lg:h-[auto] object-cover"
-                alt=""
-              />
-            </motion.div>
+            ></div>
           </div>
         </div>
       </div>
