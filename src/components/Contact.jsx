@@ -5,7 +5,14 @@ import { fadeIn } from "../variants";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section h-screen relative bg">
+    <motion.section
+      id="contact"
+      className="section h-screen relative bg"
+      variants={fadeIn("up", 0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.7 }}
+    >
       <div className="container mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1">
@@ -62,7 +69,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

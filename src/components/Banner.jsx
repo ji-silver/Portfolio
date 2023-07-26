@@ -7,7 +7,7 @@ import { fadeIn } from "../variants";
 
 const Banner = () => {
   return (
-    <section
+    <motion.section
       id="home"
       className="min-h-[85vh] lg:min-h-[80vh] flex items-center"
     >
@@ -84,7 +84,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
