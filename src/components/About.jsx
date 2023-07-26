@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import image from "../images/about.jpg";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -52,33 +51,33 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <section id="about" className="section -h-[100vh] overflow-hidden">
+    <section id="about" className="section h-screen overflow-hidden">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row h-full text-center xl:text-start justify-center items-center">
+        <div className="flex flex-col lg:flex-row h-full text-center xl:text-start gap-x-9 justify-center items-center">
           <motion.div
-            className="xl:flex-1 flex items-center"
+            className="xl:flex-1 flex items-center justify-center mx-auto md:w-auto md:h-[500px] h-[230px] w-full mb-5 md:mb-0"
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
           >
             <img
-              className="w-[480px] h-[300px] lg:h-[auto] mx-auto object-bottom object-cover"
-              src={image}
+              className="w-full h-full object-cover object-bottom overflow-hidden"
+              src={`${process.env.PUBLIC_URL}/images/about.jpg`}
               alt=""
             />
           </motion.div>
 
           <motion.div
+            className="flex-1 mx-auto flex flex-col justify-center h-full "
             variants={fadeIn("left", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex-1 mx-auto flex flex-col justify-center h-full "
           >
             <div className="flex flex-col justify-center">
-              <h2 className="text-[32px] mb-4 tracking-[10%] uppercase font-secondary font-semibold">
-                About me
+              <h2 className="text-[32px] mb-4 tracking-[10%] font-secondary font-semibold">
+                #About Me
               </h2>
               <p>
                 안녕하세요, <strong>김지은</strong>입니다. <br />

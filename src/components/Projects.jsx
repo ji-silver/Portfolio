@@ -6,11 +6,22 @@ import Work from "./Work";
 const Projects = () => {
   return (
     <div id="projects" className="section h-screen">
-      <div className="container mx-auto ">
-        <h2 className="text-center mb-10 text-[32px] uppercase font-secondary font-semibold">
-          Projects
-        </h2>
-        <Work />
+      <div className="container mx-auto">
+        <motion.h2
+          className="text-center mb-10 text-[32px] font-secondary font-semibold"
+          variants={fadeIn("down", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+        >
+          #Projects
+        </motion.h2>
+        <motion.div
+          variants={fadeIn("up", 0.4)}
+          initial="hidden"
+          whileInView={"show"}
+        >
+          <Work />
+        </motion.div>
       </div>
     </div>
   );
