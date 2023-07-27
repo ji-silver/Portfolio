@@ -60,6 +60,7 @@ const Banner = () => {
               <a
                 href="https://jisilver-k.tistory.com/"
                 target="_blank"
+                rel="noreferrer"
                 className="hover:text-[#fcac00]"
               >
                 <SiTistory />
@@ -67,6 +68,7 @@ const Banner = () => {
               <a
                 href="https://www.instagram.com/jisilver.k/"
                 target="_blank"
+                rel="noreferrer"
                 className="hover:text-[#fcac00]"
               >
                 <GrInstagram />
