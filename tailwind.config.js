@@ -18,11 +18,11 @@ module.exports = {
       lg: "960px",
       xl: "1200px",
     },
-    plugins: [
-      require("postcss-import"),
-      require("tailwindcss/nesting")(require("postcss-nesting")),
-      require("autoprefixer"),
-      require("tailwindcss"),
-    ],
+    plugins: {
+      "postcss-import": {},
+      "tailwindcss/nesting": {},
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   },
 };
