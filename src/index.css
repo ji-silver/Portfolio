@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Rubik:wght@400;500;600;700&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
@@ -35,12 +35,11 @@
   box-sizing: border-box;
   list-style: none;
   -ms-overflow-style: none;
-  /* Firefox 용 */
   scrollbar-width: none;
-  /* Webkit (Chrome 등) 용 */
-  ::-webkit-scrollbar {
-    display: none;
-  }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
