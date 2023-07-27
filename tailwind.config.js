@@ -18,11 +18,6 @@ module.exports = {
       lg: "960px",
       xl: "1200px",
     },
-    plugins: {
-      "postcss-import": {},
-      "tailwindcss/nesting": {},
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+    plugins: [],
   },
 };
