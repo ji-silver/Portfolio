@@ -35,7 +35,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://ji-silver.github.io/Portfolio/",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
