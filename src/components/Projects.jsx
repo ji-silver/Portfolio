@@ -5,11 +5,11 @@ import Work from "./Work";
 
 const Projects = () => {
   return (
-    <div id="projects" className="section h-screen">
+    <div id="projects" className="section h-screen overflow-hidden">
       <div className="container mx-auto">
         <motion.h2
-          className="text-center mb-10 text-[32px] font-secondary font-semibold"
-          variants={fadeIn("down", 0.3)}
+          className="text-center mb-6 text-[32px] font-secondary font-semibold"
+          variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView={"show"}
         >

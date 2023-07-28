@@ -1,4 +1,3 @@
-import "./App.css";
 import About from "./components/About";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
@@ -15,7 +14,6 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <div></div>
     </div>
   );
 }

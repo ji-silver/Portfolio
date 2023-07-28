@@ -34,8 +34,9 @@ const data = [
     ],
   },
   {
-    view: false,
+    view: true,
     nview: true,
+    demo: "https://wanderstayapp.netlify.app/",
     notion:
       "https://www.notion.so/WanderStay-cceabb1c716040b88bc5977640a02168?pvs=4",
     title: "<WanderStay>",
@@ -78,7 +79,7 @@ const Work = () => {
         {data.map((slide, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="w-[85%] h-[full] mx-auto pb-5 lg:pb-10 px-5">
+              <div className="w-[85%] h-full mx-auto pb-5 lg:pb-10 px-5">
                 <div className="flex flex-col lg:flex-row gap-x-10">
                   <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
                     <div className="flex-1 flex flex-col justify-center">

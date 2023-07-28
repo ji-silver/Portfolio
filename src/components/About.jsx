@@ -55,7 +55,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row h-full text-center xl:text-start gap-x-9 justify-center items-center">
           <motion.div
-            className="xl:flex-1 flex items-center justify-center mx-auto md:w-auto md:h-[500px] h-[230px] w-full mb-5 md:mb-0"
+            className="xl:flex-1 flex items-center justify-center mx-auto lg:w-auto lg:h-full md:h-[250px] h-[200px] w-full mb-5 md:mb-0"
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
@@ -76,7 +76,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.7 }}
           >
             <div className="flex flex-col justify-center">
-              <h2 className="text-[32px] mb-4 tracking-[10%] font-secondary font-semibold">
+              <h2 className="text-[32px] mb-4 tracking-[10%] font-secondary font-semibold md:pt-5">
                 #About Me
               </h2>
               <p>
