@@ -2,7 +2,7 @@ export const projectsData = [
   {
     view: true,
     nview: true,
-    demo: "http://43.201.69.149/",
+    demo: "http://strikezone.jisilver.shop",
     notion:
       "https://www.notion.so/Strike-Zone-c671563ab74941a1ad74ddf66cb4bd70?pvs=4",
     title: "<Strike Zone!>",
@@ -25,7 +25,7 @@ export const projectsData = [
   {
     view: true,
     nview: true,
-    demo: "https://wanderstayapp.netlify.app/",
+    demo: "https://wanderstay.jisilver.shop",
     notion:
       "https://www.notion.so/WanderStay-cceabb1c716040b88bc5977640a02168?pvs=4",
     title: "<WanderStay>",
