@@ -5,7 +5,7 @@ import Work from "./Work";
 
 const Projects = () => {
   return (
-    <div id="projects" className="section h-screen overflow-hidden">
+    <div id="projects" className="section h-screen">
       <div className="container mx-auto">
         <motion.h2
           className="text-center mb-6 text-[32px] font-secondary font-semibold"

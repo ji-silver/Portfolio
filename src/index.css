@@ -17,12 +17,6 @@
 }
 
 @media (max-width: 960px) {
-  .swiper-button-next:after,
-  .swiper-button-prev:after,
-  .swiper-button-next:after,
-  .swiper-rtl .swiper-button-prev:after {
-  }
-
   .swiper-button-prev,
   .swiper-button-next {
     height: 230px !important;
@@ -43,7 +37,7 @@
 }
 
 body {
-  color: #434343;
+  color: #515151;
 }
 
 .active {

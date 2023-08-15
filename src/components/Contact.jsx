@@ -5,14 +5,7 @@ import { fadeIn } from "../variants";
 
 const Contact = () => {
   return (
-    <motion.section
-      id="contact"
-      className="section h-screen relative bg"
-      variants={fadeIn("up", 0.2)}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{ once: false, amount: 0.7 }}
-    >
+    <section id="contact" className="section h-screen relative bg">
       <div className="container mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1">
@@ -23,7 +16,7 @@ const Contact = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                src={process.env.PUBLIC_URL + "/images/logo1.png"}
+                src={"/images/logo1.png"}
                 alt=""
               />
               <motion.h2
@@ -69,7 +62,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

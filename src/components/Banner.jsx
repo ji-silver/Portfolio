@@ -7,22 +7,10 @@ import { fadeIn } from "../variants";
 
 const Banner = () => {
   return (
-    <motion.section
-      id="home"
-      className="min-h-[85vh] lg:min-h-[80vh] flex items-center"
-    >
+    <motion.section id="home" className="min-h-screen section items-center">
       <div className="container text-center mx-auto">
         <div>
-          <div className="flex-1 text-center items-center">
-            <motion.img
-              className="w-[130px] mx-auto"
-              variants={fadeIn("up", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              exit="hidden"
-              src={process.env.PUBLIC_URL + "/images/logo.png"}
-              alt=""
-            />
+          <div>
             <motion.h1
               className="text-[55px] font-bold lg:text-[80px]"
               variants={fadeIn("up", 0.3)}
