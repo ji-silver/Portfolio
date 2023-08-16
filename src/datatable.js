@@ -25,7 +25,7 @@ export const projectsData = [
   {
     view: true,
     nview: true,
-    demo: "https://wanderstay.jisilver.shop",
+    demo: "https://wanderstayapp.netlify.app/",
     notion:
       "https://www.notion.so/WanderStay-cceabb1c716040b88bc5977640a02168?pvs=4",
     title: "<WanderStay>",
