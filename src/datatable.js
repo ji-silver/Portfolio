@@ -39,7 +39,7 @@ export const projectsData = [
   {
     view: true,
     nview: true,
-    demo: "http://ppvoca.p-e.kr/book/list",
+    demo: "https://ppvoca.vercel.app/book/list",
     notion:
       "https://amenable-colby-ae6.notion.site/408553854c1d4f7ba9f5ed007ca53653?pvs=4",
     title: "<뿅뿅 단어장>",
