@@ -1,8 +1,8 @@
 export const projectsData = [
   {
-    view: true,
+    view: false,
     nview: true,
-    demo: "http://strikezone.jisilver.shop",
+    // demo: "http://strikezone.jisilver.shop",
     notion:
       "https://www.notion.so/Strike-Zone-c671563ab74941a1ad74ddf66cb4bd70?pvs=4",
     title: "<Strike Zone!>",
